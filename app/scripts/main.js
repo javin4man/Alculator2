@@ -1,9 +1,9 @@
 // jshint devel:true
 //console.log('\'Allo \'Allo!');//
 
-function calc() {
+var age = ["21-25", "26-30", "31-35", "35+"];
 
- var num1, num2;
+var height = [4'8" to 5'2", 5'3 to 5'7", 5'8 to 6'2", 6'3 to 6'8"];
 
- // var sign = "="
-}
+var weight = [95 lbs to 125 lbs, 126 lbs to 156 lbs, 157 lbs to 187 lbs
+157 lbs to 188 lbs, 189 lbs to 219 lbs, 220 lbs to 250 + lbs];

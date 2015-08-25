@@ -95,10 +95,10 @@ body {
 //ALCULATOR CSS STARTS HERE//
 
 body {
-background-image: url("../../app/images/projectx.jpg");
+background-image: url("../../app/images/projectx.png");
 background-size: cover;
-opacity: 0.4;
-    filter: alpha(opacity=40);
+
+
 
 }
 
@@ -109,15 +109,25 @@ opacity: 0.4;
     border: 3px solid #3D59AB ;
     text-align: center ;
     margin-top: 65px ;
-    opacity: 0.0;
-    filter: alpha(opacity=0);
-  }
- h2 {
+
+
+}
+ .result {
+
+   color: black;
+
+ }
+
+.strokeme
+{
     color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 
-
-
-  }
+}
 
 .alculator-box {
    width: 400px;
@@ -128,15 +138,15 @@ opacity: 0.4;
    border: 5px solid grey;
    margin: auto;
    display: block;
-   background-color: whitespace;
+
    background-image: url("../../app/images/ipad2.png");
    background-size: cover;
-   opacity: 0.;
-    filter: alpha(opacity=0);
+
+
 }
 
 .ageDropDown {
-    padding-left: 130;
-    padding-right: 77;
+    padding-left: 90px;
+
 
 }
