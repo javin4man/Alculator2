@@ -97,7 +97,8 @@ body {
 body {
 background-image: url("../../app/images/projectx.jpg");
 background-size: cover;
-background-opacity: 0.6;
+opacity: 0.4;
+    filter: alpha(opacity=40);
 
 }
 
@@ -108,9 +109,12 @@ background-opacity: 0.6;
     border: 3px solid #3D59AB ;
     text-align: center ;
     margin-top: 65px ;
+    opacity: 0.0;
+    filter: alpha(opacity=0);
   }
  h2 {
     color: white;
+
 
 
   }
@@ -124,6 +128,15 @@ background-opacity: 0.6;
    border: 5px solid grey;
    margin: auto;
    display: block;
-   background-color: blue;
+   background-color: whitespace;
+   background-image: url("../../app/images/ipad2.png");
+   background-size: cover;
+   opacity: 0.;
+    filter: alpha(opacity=0);
 }
 
+.ageDropDown {
+    padding-left: 130;
+    padding-right: 77;
+
+}
