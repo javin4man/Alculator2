@@ -22,7 +22,7 @@ Links
 
 GitHub Repo
 
-Trello Board
+<text-color =blue> Trello Board
 https://trello.com/b/GsvQIcHK/alculator-road-map
 Deployed on Bitbaloon
 http://author-seal-35788.bitballoon.com/
