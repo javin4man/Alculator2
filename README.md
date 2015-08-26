@@ -19,11 +19,9 @@ Alculator is an app that will help party goers and guest set their proper level 
 
 <h3>Links</h3>
 
-GitHub Repo
-
- Trello Board 
-https://trello.com/b/GsvQIcHK/alculator-road-map
-Deployed on Bitbaloon
-http://author-seal-35788.bitballoon.com/
-Sketch
-https://www.flickr.com/photos/30882329@N04/20718602129/in/dateposted-public/
+<ul>
+<li> GitHub Repo https://github.com/javin4man/Alculator2 </li>
+<li> Trello Board  https://trello.com/b/GsvQIcHK/alculator-road-map </li>
+<li> Deployed on Bitbaloon http://author-seal-35788.bitballoon.com/ </li>
+<li> Sketchhttps://www.flickr.com/photos/30882329@N04/20718602129/in/dateposted-public/ </li>
+</ul>
