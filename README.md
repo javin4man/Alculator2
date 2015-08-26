@@ -15,7 +15,7 @@ Yeoman
 Grunt
 Bower
   </ul>
-
+</h2>
 Links
 
 GitHub Repo
