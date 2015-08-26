@@ -95,28 +95,39 @@ body {
 //ALCULATOR CSS STARTS HERE//
 
 body {
-background-image: url("../../app/images/projectx.png");
+background-image: url("/images/projectx.png");
 background-size: cover;
-
-
-
 }
 
-
+input {
+  color: black;
+}
 
  h1 {
     background-color:  grey ;
     border: 3px solid #3D59AB ;
     text-align: center ;
     margin-top: 65px ;
-
-
 }
- .result {
-   padding-left: 100px;
-   color: black;
 
- }
+.inputs {
+  padding: 10px;
+
+  .input {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+.results {
+  margin-top: 40px;
+  margin-left: 60px;
+  color: black;
+}
+
+.result {
+  margin-top: 30px;
+}
 
 .strokeme
 {
@@ -139,7 +150,7 @@ background-size: cover;
    margin: auto;
    display: block;
 
-   background-image: url("../../app/images/ipad2.png");
+   background-image: url("/images/ipad2.png");
    background-size: cover;
 
 

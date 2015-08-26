@@ -1,56 +1,41 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
 
+<head>
   <link rel="shortcut icon" type="logo" href="images/logo.png">
+  <meta charset="utf-8">
+  <title>alculator</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
 
-    <meta charset="utf-8">
-    <title>alculator</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <script type="text/javascript" src="./scripts/main.js"></script>
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="../.tmp/styles/main.css">
-    <!-- endbuild -->
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="../bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-
-  </head>
-  <body>
-    <!--[if lt IE 10]>
+<body>
+  <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-
-
-
-<img src="images/logo.png" alt="Alculator Logo" style="width:304px;height:228px"; padding-left: 90px;>
-
-
-<div class="strokeme">
-<h2> Welcome to my party. In order to ensure that all guests have a good time
-and make it home without wrecking my house, starting a fight or catching a DUI,
+  <img src="images/logo.png" alt="Alculator Logo" style="width:304px; height:228px; padding-left: 90px;">
+  <div class="strokeme">
+    <h2> Welcome to my party. In order to ensure that all guests have a good time
+and make it home without wrecking my house, raging or catching a DUI,
 I have put together an <i><b>Alculator</i></b> which will provide you with your ideal cocktail consumption number.</h2>
-</div>
+  </div>
+  <div class="alculator-box"><i>Know when to say when..or at least when to call an Uber</i>
+    <p><i>and not your ex....</i>.
 
-<div class="alculator-box"><i>Know when to say when..or at least when to call an Uber</i>
-<p><i>and not your ex....</i>.
-<br>
-<br>
-
-<br>
-<br>
-
-<!-- <div class="ageDropDown">
+      <!-- <div class="ageDropDown">
   <button class="btn btn-default dropdown-toggle" type="button" id="age dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     Select Your Age class
     <span class="caret"></span>
@@ -63,52 +48,44 @@ I have put together an <i><b>Alculator</i></b> which will provide you with your 
   </ul>
 </div> -->
 
-  <select class='ageDropDown' id='age'>
-    <option value="" disabled selected>Select your age</option>
-    <option value='0'>21-25</option>
-    <option value='1'>26-30</option>
-    <option value='2'>31-35</option>
-    <option value='3'>35+</option>
-  </select>
-
-  <br>
-  <br>
-  <br>
-  <br>
-
+<div class="inputs">
+  <div class="input">
+    <select class='ageDropDown' id='age'>
+      <option value="" disabled selected>Select your age</option>
+      <option value='0'>21-25</option>
+      <option value='1'>26-30</option>
+      <option value='2'>31-35</option>
+      <option value='3'>35+</option>
+    </select>
+  </div>
+  <div class="input">
     <select class='heightDropDown' id='height'>
-    <option value="" disabled selected>Select your height</option>
-    <option value='0'>4'8" to 5'2"</option>
-    <option value='1'>5'3 to 5'7"</option>
-    <option value='2'>5'8 to 6'2"</option>
-    <option value='3'>6'3 to 6'8" +</option>
-  </select>
+      <option value="" disabled selected>Select your height</option>
+      <option value='0'>4 foot 8 inches to 5 foot 2 inches</option>
+      <option value='1'>5 foot 3 inches to 5 foot 7 inches</option>
+      <option value='2'>5 foot 8 inches to 6 foot 2 inches</option>
+      <option value='3'>6 foot 3 inches to 6 foot 8 inches +</option>
+    </select>
+  </div>
+  <div class="input">
+    <select class='weightDropDown' id='weight'>
+      <option value="" disabled selected>Select your weight</option>
+      <option value='0'>95 lbs to 125 lbs</option>
+      <option value='1'>126 lbs to 156 lbs</option>
+      <option value='2'>157 lbs to 187 lbs</option>
+      <option value='3'>188 lbs to 219 lbs</option>
+      <option value='4'>220 lbs to 250 + lbs</option>
+    </select>
+  </div>
+ </div>
 
-  <br>
-  <br>
-  <br>
-  <br>
-
-   <select class='weightDropDown' id='weight'>
-    <option value="" disabled selected>Select your height</option>
-    <option value='0'>95 lbs to 125 lbs</option>
-    <option value='1'>126 lbs to 156 lbs</option>
-    <option value='2'>157 lbs to 187 lbs</option>
-    <option value='3'>188 lbs to 219 lbs</option>
-    <option value='4'>220 lbs to 250 + lbs</option>
-  </select>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class ="result".
-<p><b> Result </b></p>
-<input type="text" id="result" />
+ <div class="results">
+  <button id="submit" type="button" class="btn btn-primary btn-sm btn-submit">Submit</button>
+  <div class="result">
+    <p><b> Result </b></p>
+    <input type="text" id="result" />
+  </div>
+</div>
 
   <!--<div class="heightDropDown">
   <button class="btn btn-default dropdown-toggle" type="button" id="age dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -142,14 +119,8 @@ I have put together an <i><b>Alculator</i></b> which will provide you with your 
     <li><a href="#">220 lbs to 250 + lbs</a></li>
   </ul>
 
-
-
-
 </div>
-
 </div>
-
-
 
 <br>
 <br>
@@ -159,26 +130,15 @@ I have put together an <i><b>Alculator</i></b> which will provide you with your 
 <input type="text" id="result" />
 
 </body>
+-->
 
 <!--END OF ALCULATOR CODE -->
-
-
-
-
-
-
-
-
-
-
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="../bower_components/modernizr/modernizr.js"></script>
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-
-
     <!-- build:js(.) scripts/plugins.js -->
     <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -193,20 +153,26 @@ I have put together an <i><b>Alculator</i></b> which will provide you with your 
     <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-
-
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
-
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
+    (function(b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function() {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
     </script>
-  </body>
+</body>
+
 </html>
