@@ -1,6 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="">
   <head>
+
+  <link rel="shortcut icon" type="logo" href="images/logo.png">
+
     <meta charset="utf-8">
     <title>alculator</title>
     <meta name="description" content="">
@@ -36,7 +39,7 @@
 <div class="strokeme">
 <h2> Welcome to my party. In order to ensure that all guests have a good time
 and make it home without wrecking my house, starting a fight or catching a DUI,
-I have put together an <i><b>Alculator</i></b> which will provide you with your ideal cocktailconsumption number.</h2>
+I have put together an <i><b>Alculator</i></b> which will provide you with your ideal cocktail consumption number.</h2>
 </div>
 
 <div class="alculator-box"><i>Know when to say when..or at least when to call an Uber</i>
@@ -47,7 +50,7 @@ I have put together an <i><b>Alculator</i></b> which will provide you with your 
 <br>
 <br>
 
-<div class="ageDropDown">
+<!-- <div class="ageDropDown">
   <button class="btn btn-default dropdown-toggle" type="button" id="age dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     Select Your Age class
     <span class="caret"></span>
@@ -58,13 +61,56 @@ I have put together an <i><b>Alculator</i></b> which will provide you with your 
     <li><a href="#">31-35</a></li>
     <li><a href="#">35+</a></li>
   </ul>
+</div> -->
+
+  <select class='ageDropDown' id='age'>
+    <option value="" disabled selected>Select your age</option>
+    <option value='0'>21-25</option>
+    <option value='1'>26-30</option>
+    <option value='2'>31-35</option>
+    <option value='3'>35+</option>
+  </select>
 
   <br>
   <br>
   <br>
   <br>
 
-  <div class="heightDropDown">
+    <select class='heightDropDown' id='height'>
+    <option value="" disabled selected>Select your height</option>
+    <option value='0'>4'8" to 5'2"</option>
+    <option value='1'>5'3 to 5'7"</option>
+    <option value='2'>5'8 to 6'2"</option>
+    <option value='3'>6'3 to 6'8" +</option>
+  </select>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+   <select class='weightDropDown' id='weight'>
+    <option value="" disabled selected>Select your height</option>
+    <option value='0'>95 lbs to 125 lbs</option>
+    <option value='1'>126 lbs to 156 lbs</option>
+    <option value='2'>157 lbs to 187 lbs</option>
+    <option value='3'>188 lbs to 219 lbs</option>
+    <option value='4'>220 lbs to 250 + lbs</option>
+  </select>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class ="result".
+<p><b> Result </b></p>
+<input type="text" id="result" />
+
+  <!--<div class="heightDropDown">
   <button class="btn btn-default dropdown-toggle" type="button" id="age dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     Select Your Height class
     <span class="caret"></span>
