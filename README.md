@@ -15,14 +15,13 @@ Alculator is an app that will help party goers and guest set their proper level 
 <li>Grunt</li>
 <li>Bower</li>
   </ul>
-
-  
 </h2>
-Links
+
+<h3>Links</h3>
 
 GitHub Repo
 
-<h3> Trello Board </h3>
+ Trello Board 
 https://trello.com/b/GsvQIcHK/alculator-road-map
 Deployed on Bitbaloon
 http://author-seal-35788.bitballoon.com/
