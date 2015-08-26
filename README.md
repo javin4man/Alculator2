@@ -4,7 +4,7 @@
 Alculator is an app that will help party goers and guest set their proper level of alchol consumption through a BMI forumula. Once a user enters their age, height, and weight, the Alculator app will output their ideal drink consumption level.  
 
 
-<h2> Technologies used:
+<h2> Technologies used </h2>:
  <ul>
 <li>HTML5 </li> 
 <li>CSS3</li>
