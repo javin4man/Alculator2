@@ -5,7 +5,7 @@ Alculator is an app that will help party goers and guest set their proper level 
 
 
 <h2> Technologies used:
-
+<li>
  <ul>
 HTML5/CSS3,
 SASS,
@@ -15,6 +15,8 @@ Yeoman
 Grunt
 Bower
   </ul>
+</li>
+  
 </h2>
 Links
 
