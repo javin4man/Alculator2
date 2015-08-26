@@ -5,7 +5,6 @@ Alculator is an app that will help party goers and guest set their proper level 
 
 
 <h2> Technologies used:
-<li>
  <ul>
 <li>HTML5 </li> 
 <li>CSS3</li>
